@@ -13,7 +13,24 @@
 		26221A2C2469ED8400EEE9AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26221A2A2469ED8400EEE9AD /* Main.storyboard */; };
 		26221A2E2469ED8600EEE9AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26221A2D2469ED8600EEE9AD /* Assets.xcassets */; };
 		26221A312469ED8600EEE9AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26221A2F2469ED8600EEE9AD /* LaunchScreen.storyboard */; };
+		26221A412469EFA400EEE9AD /* LearnAlgoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26221A402469EFA400EEE9AD /* LearnAlgoTests.swift */; };
+		26221A482469EFAF00EEE9AD /* CheckSumExistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26221A382469EDEE00EEE9AD /* CheckSumExistTests.swift */; };
+		26221A4A2469F34F00EEE9AD /* ProductsNotAtIndexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26221A492469F34F00EEE9AD /* ProductsNotAtIndexTests.swift */; };
+		26221A4E2469F55100EEE9AD /* FloodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26221A4D2469F55100EEE9AD /* FloodFill.swift */; };
+		26221A502469F6D400EEE9AD /* FindTheTownJudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26221A4F2469F6D400EEE9AD /* FindTheTownJudge.swift */; };
+		26221A522469F83700EEE9AD /* ValidPerfectSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26221A512469F83700EEE9AD /* ValidPerfectSquare.swift */; };
+		26221A542469F8C600EEE9AD /* FirstBadVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26221A532469F8C600EEE9AD /* FirstBadVersion.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26221A432469EFA400EEE9AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26221A192469ED8400EEE9AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26221A202469ED8400EEE9AD;
+			remoteInfo = LearnAlgo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		26221A212469ED8400EEE9AD /* LearnAlgo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnAlgo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +41,26 @@
 		26221A2D2469ED8600EEE9AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26221A302469ED8600EEE9AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26221A322469ED8600EEE9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26221A382469EDEE00EEE9AD /* CheckSumExistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSumExistTests.swift; sourceTree = "<group>"; };
+		26221A3E2469EFA400EEE9AD /* LearnAlgoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnAlgoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26221A402469EFA400EEE9AD /* LearnAlgoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnAlgoTests.swift; sourceTree = "<group>"; };
+		26221A422469EFA400EEE9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26221A492469F34F00EEE9AD /* ProductsNotAtIndexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsNotAtIndexTests.swift; sourceTree = "<group>"; };
+		26221A4D2469F55100EEE9AD /* FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFill.swift; sourceTree = "<group>"; };
+		26221A4F2469F6D400EEE9AD /* FindTheTownJudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheTownJudge.swift; sourceTree = "<group>"; };
+		26221A512469F83700EEE9AD /* ValidPerfectSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPerfectSquare.swift; sourceTree = "<group>"; };
+		26221A532469F8C600EEE9AD /* FirstBadVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstBadVersion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		26221A1E2469ED8400EEE9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26221A3B2469EFA400EEE9AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				26221A232469ED8400EEE9AD /* LearnAlgo */,
+				26221A3F2469EFA400EEE9AD /* LearnAlgoTests */,
 				26221A222469ED8400EEE9AD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				26221A212469ED8400EEE9AD /* LearnAlgo.app */,
+				26221A3E2469EFA400EEE9AD /* LearnAlgoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +100,37 @@
 				26221A322469ED8600EEE9AD /* Info.plist */,
 			);
 			path = LearnAlgo;
+			sourceTree = "<group>";
+		};
+		26221A3F2469EFA400EEE9AD /* LearnAlgoTests */ = {
+			isa = PBXGroup;
+			children = (
+				26221A4C2469F52100EEE9AD /* LeetCodeMayChallenge */,
+				26221A402469EFA400EEE9AD /* LearnAlgoTests.swift */,
+				26221A4B2469F51200EEE9AD /* DailyCodingProblem */,
+				26221A422469EFA400EEE9AD /* Info.plist */,
+			);
+			path = LearnAlgoTests;
+			sourceTree = "<group>";
+		};
+		26221A4B2469F51200EEE9AD /* DailyCodingProblem */ = {
+			isa = PBXGroup;
+			children = (
+				26221A382469EDEE00EEE9AD /* CheckSumExistTests.swift */,
+				26221A492469F34F00EEE9AD /* ProductsNotAtIndexTests.swift */,
+			);
+			path = DailyCodingProblem;
+			sourceTree = "<group>";
+		};
+		26221A4C2469F52100EEE9AD /* LeetCodeMayChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				26221A4D2469F55100EEE9AD /* FloodFill.swift */,
+				26221A4F2469F6D400EEE9AD /* FindTheTownJudge.swift */,
+				26221A512469F83700EEE9AD /* ValidPerfectSquare.swift */,
+				26221A532469F8C600EEE9AD /* FirstBadVersion.swift */,
+			);
+			path = LeetCodeMayChallenge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +153,24 @@
 			productReference = 26221A212469ED8400EEE9AD /* LearnAlgo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		26221A3D2469EFA400EEE9AD /* LearnAlgoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26221A452469EFA400EEE9AD /* Build configuration list for PBXNativeTarget "LearnAlgoTests" */;
+			buildPhases = (
+				26221A3A2469EFA400EEE9AD /* Sources */,
+				26221A3B2469EFA400EEE9AD /* Frameworks */,
+				26221A3C2469EFA400EEE9AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26221A442469EFA400EEE9AD /* PBXTargetDependency */,
+			);
+			name = LearnAlgoTests;
+			productName = LearnAlgoTests;
+			productReference = 26221A3E2469EFA400EEE9AD /* LearnAlgoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +183,10 @@
 				TargetAttributes = {
 					26221A202469ED8400EEE9AD = {
 						CreatedOnToolsVersion = 11.3.1;
+					};
+					26221A3D2469EFA400EEE9AD = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 26221A202469ED8400EEE9AD;
 					};
 				};
 			};
@@ -116,6 +204,7 @@
 			projectRoot = "";
 			targets = (
 				26221A202469ED8400EEE9AD /* LearnAlgo */,
+				26221A3D2469EFA400EEE9AD /* LearnAlgoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +217,13 @@
 				26221A312469ED8600EEE9AD /* LaunchScreen.storyboard in Resources */,
 				26221A2E2469ED8600EEE9AD /* Assets.xcassets in Resources */,
 				26221A2C2469ED8400EEE9AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26221A3C2469EFA400EEE9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +240,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		26221A3A2469EFA400EEE9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26221A4A2469F34F00EEE9AD /* ProductsNotAtIndexTests.swift in Sources */,
+				26221A4E2469F55100EEE9AD /* FloodFill.swift in Sources */,
+				26221A482469EFAF00EEE9AD /* CheckSumExistTests.swift in Sources */,
+				26221A412469EFA400EEE9AD /* LearnAlgoTests.swift in Sources */,
+				26221A502469F6D400EEE9AD /* FindTheTownJudge.swift in Sources */,
+				26221A522469F83700EEE9AD /* ValidPerfectSquare.swift in Sources */,
+				26221A542469F8C600EEE9AD /* FirstBadVersion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26221A442469EFA400EEE9AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26221A202469ED8400EEE9AD /* LearnAlgo */;
+			targetProxy = 26221A432469EFA400EEE9AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		26221A2A2469ED8400EEE9AD /* Main.storyboard */ = {
@@ -314,6 +432,44 @@
 			};
 			name = Release;
 		};
+		26221A462469EFA400EEE9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LearnAlgoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = enjoy.coding.LearnAlgoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnAlgo.app/LearnAlgo";
+			};
+			name = Debug;
+		};
+		26221A472469EFA400EEE9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LearnAlgoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = enjoy.coding.LearnAlgoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnAlgo.app/LearnAlgo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -331,6 +487,15 @@
 			buildConfigurations = (
 				26221A362469ED8600EEE9AD /* Debug */,
 				26221A372469ED8600EEE9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26221A452469EFA400EEE9AD /* Build configuration list for PBXNativeTarget "LearnAlgoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26221A462469EFA400EEE9AD /* Debug */,
+				26221A472469EFA400EEE9AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
