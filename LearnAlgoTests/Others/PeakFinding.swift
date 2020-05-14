@@ -120,5 +120,4 @@ class PeakFinding: XCTestCase {
         let expectResult = 4
         XCTAssertTrue(run(arr) == expectResult)
     }
-
 }

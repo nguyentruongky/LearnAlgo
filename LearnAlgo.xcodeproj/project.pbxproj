@@ -13,13 +13,17 @@
 		26221A2C2469ED8400EEE9AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26221A2A2469ED8400EEE9AD /* Main.storyboard */; };
 		26221A2E2469ED8600EEE9AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26221A2D2469ED8600EEE9AD /* Assets.xcassets */; };
 		26221A312469ED8600EEE9AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26221A2F2469ED8600EEE9AD /* LaunchScreen.storyboard */; };
-		26221A412469EFA400EEE9AD /* LearnAlgoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26221A402469EFA400EEE9AD /* LearnAlgoTests.swift */; };
 		26221A482469EFAF00EEE9AD /* CheckSumExistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26221A382469EDEE00EEE9AD /* CheckSumExistTests.swift */; };
 		26221A4A2469F34F00EEE9AD /* ProductsNotAtIndexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26221A492469F34F00EEE9AD /* ProductsNotAtIndexTests.swift */; };
 		26221A4E2469F55100EEE9AD /* FloodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26221A4D2469F55100EEE9AD /* FloodFill.swift */; };
 		26221A502469F6D400EEE9AD /* FindTheTownJudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26221A4F2469F6D400EEE9AD /* FindTheTownJudge.swift */; };
 		26221A522469F83700EEE9AD /* ValidPerfectSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26221A512469F83700EEE9AD /* ValidPerfectSquare.swift */; };
 		26221A542469F8C600EEE9AD /* FirstBadVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26221A532469F8C600EEE9AD /* FirstBadVersion.swift */; };
+		262FB9B8246DBA72005624FC /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FB9B7246DBA72005624FC /* Trie.swift */; };
+		262FB9BA246DD8EF005624FC /* IsStraightLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FB9B9246DD8EF005624FC /* IsStraightLine.swift */; };
+		26420496246B60BF002FAF83 /* PeakFinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26420495246B60BF002FAF83 /* PeakFinding.swift */; };
+		26EFFC79246C819000A58D4C /* SmallestMissingPositiveNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EFFC78246C819000A58D4C /* SmallestMissingPositiveNumberTests.swift */; };
+		26EFFC7B246C9ECD00A58D4C /* RemoveKDigitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EFFC7A246C9ECD00A58D4C /* RemoveKDigitsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,13 +47,17 @@
 		26221A322469ED8600EEE9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26221A382469EDEE00EEE9AD /* CheckSumExistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSumExistTests.swift; sourceTree = "<group>"; };
 		26221A3E2469EFA400EEE9AD /* LearnAlgoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnAlgoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		26221A402469EFA400EEE9AD /* LearnAlgoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnAlgoTests.swift; sourceTree = "<group>"; };
 		26221A422469EFA400EEE9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26221A492469F34F00EEE9AD /* ProductsNotAtIndexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsNotAtIndexTests.swift; sourceTree = "<group>"; };
 		26221A4D2469F55100EEE9AD /* FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFill.swift; sourceTree = "<group>"; };
 		26221A4F2469F6D400EEE9AD /* FindTheTownJudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheTownJudge.swift; sourceTree = "<group>"; };
 		26221A512469F83700EEE9AD /* ValidPerfectSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPerfectSquare.swift; sourceTree = "<group>"; };
 		26221A532469F8C600EEE9AD /* FirstBadVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstBadVersion.swift; sourceTree = "<group>"; };
+		262FB9B7246DBA72005624FC /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		262FB9B9246DD8EF005624FC /* IsStraightLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsStraightLine.swift; sourceTree = "<group>"; };
+		26420495246B60BF002FAF83 /* PeakFinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeakFinding.swift; sourceTree = "<group>"; };
+		26EFFC78246C819000A58D4C /* SmallestMissingPositiveNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallestMissingPositiveNumberTests.swift; sourceTree = "<group>"; };
+		26EFFC7A246C9ECD00A58D4C /* RemoveKDigitsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveKDigitsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +113,8 @@
 		26221A3F2469EFA400EEE9AD /* LearnAlgoTests */ = {
 			isa = PBXGroup;
 			children = (
+				26420494246B60B1002FAF83 /* Others */,
 				26221A4C2469F52100EEE9AD /* LeetCodeMayChallenge */,
-				26221A402469EFA400EEE9AD /* LearnAlgoTests.swift */,
 				26221A4B2469F51200EEE9AD /* DailyCodingProblem */,
 				26221A422469EFA400EEE9AD /* Info.plist */,
 			);
@@ -118,6 +126,7 @@
 			children = (
 				26221A382469EDEE00EEE9AD /* CheckSumExistTests.swift */,
 				26221A492469F34F00EEE9AD /* ProductsNotAtIndexTests.swift */,
+				26EFFC78246C819000A58D4C /* SmallestMissingPositiveNumberTests.swift */,
 			);
 			path = DailyCodingProblem;
 			sourceTree = "<group>";
@@ -129,8 +138,19 @@
 				26221A4F2469F6D400EEE9AD /* FindTheTownJudge.swift */,
 				26221A512469F83700EEE9AD /* ValidPerfectSquare.swift */,
 				26221A532469F8C600EEE9AD /* FirstBadVersion.swift */,
+				26EFFC7A246C9ECD00A58D4C /* RemoveKDigitsTests.swift */,
+				262FB9B7246DBA72005624FC /* Trie.swift */,
+				262FB9B9246DD8EF005624FC /* IsStraightLine.swift */,
 			);
 			path = LeetCodeMayChallenge;
+			sourceTree = "<group>";
+		};
+		26420494246B60B1002FAF83 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				26420495246B60BF002FAF83 /* PeakFinding.swift */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,12 +265,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				26221A4A2469F34F00EEE9AD /* ProductsNotAtIndexTests.swift in Sources */,
+				26EFFC79246C819000A58D4C /* SmallestMissingPositiveNumberTests.swift in Sources */,
 				26221A4E2469F55100EEE9AD /* FloodFill.swift in Sources */,
 				26221A482469EFAF00EEE9AD /* CheckSumExistTests.swift in Sources */,
-				26221A412469EFA400EEE9AD /* LearnAlgoTests.swift in Sources */,
 				26221A502469F6D400EEE9AD /* FindTheTownJudge.swift in Sources */,
+				262FB9B8246DBA72005624FC /* Trie.swift in Sources */,
+				26420496246B60BF002FAF83 /* PeakFinding.swift in Sources */,
+				26EFFC7B246C9ECD00A58D4C /* RemoveKDigitsTests.swift in Sources */,
 				26221A522469F83700EEE9AD /* ValidPerfectSquare.swift in Sources */,
 				26221A542469F8C600EEE9AD /* FirstBadVersion.swift in Sources */,
+				262FB9BA246DD8EF005624FC /* IsStraightLine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
